@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pennblue">#201e50</color>
+    <color name="airforceblue">#9CC5D1</color>
+    <color name="airforcebluedark">#38555E</color>
+    <color name="persiangreen">#1b998b</color>
+    <color name="almond">#ffe8d4</color>
+    <color name="periwinkle">#d8ccfa</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tblack">#99000000</color>
+</resources>

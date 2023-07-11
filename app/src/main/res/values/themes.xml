@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ScreenTimeControl" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/airforceblue</item>
+        <item name="colorPrimaryVariant">@color/airforcebluedark</item>
+        <item name="colorPrimaryDark">@color/airforcebluedark</item>
+        <item name="colorOnPrimary">@color/tblack</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/almond</item>
+        <item name="colorSecondaryVariant">@color/periwinkle</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/airforceblue</item>
+        <item name="colorOnSurfaceVariant">#99000000</item>
+        <item name="android:textColor">@color/tblack</item>
+        <item name="android:editTextColor">@color/almond</item>
+        <item name="android:navigationBarColor">@color/airforceblue</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="roundIcon" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="android:cropToPadding">true</item>
+    </style>
+</resources>

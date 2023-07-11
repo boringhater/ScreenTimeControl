@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ScreenTimeControl</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="limit_this_app">Application limits</string>
+    <string name="daily_time_limit">Daily time limit</string>
+    <string name="application_name">Application Name</string>
+    <string name="time_out">Time-out</string>
+    <string name="screentimecontrol">ScreenTimeControl</string>
+    <string name="screen_time_is_limited">Screen time is limited</string>
+    <string name="app_requires_permission">ScreenTimeControl requires an overlay permission</string>
+    <string name="service_channel_description">Foreground service channel. Turning it off will block application background work.</string>
+    <string name="time_left_for_app">Time left for %1$s: %2$s:%3$s</string>
+    <string name="limit_for_app_exceeded">Daily limit for %1$s is exceeded</string>
+    <string name="app_timeout_until">%1$s is under time-out. Get back in %2$s:%3$s</string>
+    <string name="stop_loafing">Stop loafing</string>
+    <string name="get_back_another_time">Get back another time</string>
+    <string name="stc_is_active">ScreenTimeControl is active</string>
+    <string name="app_not_limited">Application screen time is not limited</string>
+    <string name="global_limit_exceeded">Today Screen Time Limit exceeded</string>
+    <string name="global_limit_left">Screen Time left today: %1$s:%2$s</string>
+    <string name="app_under_timeout">Application is under timeout</string>
+    <string name="period">Period</string>
+    <string name="duration">Duration</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainFragment"
+    android:background="@color/airforceblue"
+    tools:viewBindingIgnore="true" >
+    <ImageButton
+        android:id="@+id/globalLimitBtn"
+        android:layout_width="@dimen/app_icon_size_default"
+        android:layout_height="@dimen/app_icon_size_default"
+        app:layout_constraintTop_toTopOf="@id/globalLimitPicker"
+        app:layout_constraintBottom_toBottomOf="@id/globalLimitPicker"
+        app:layout_constraintRight_toLeftOf="@id/globalLimitPicker"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="@dimen/margin_standard"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_hourglass_alpha"/>
+    <TimePicker
+        android:id="@+id/globalLimitPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/globalLimitBtn"
+        app:layout_constraintRight_toLeftOf="@id/powerBtn"
+        android:timePickerMode="spinner"/>
+    <ImageButton
+        android:id="@+id/powerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/globalLimitPicker"
+        app:layout_constraintLeft_toRightOf="@+id/globalLimitPicker"
+        app:layout_constraintBottom_toBottomOf="@id/globalLimitPicker"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="@dimen/margin_standard"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_power" />
+    <android.widget.SearchView
+        android:id="@+id/searchBar"
+        android:hint="@string/application_name"
+        android:background="?android:statusBarColor"
+        android:animateLayoutChanges="true"
+        android:layoutDirection="rtl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/globalLimitPicker"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/appsRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/searchBar"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
